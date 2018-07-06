@@ -1,0 +1,49 @@
+#section-one{
+  text-align: center;
+  background-image: url("../image/backgrounds/landing.jpg");
+  color: white;
+  }
+# happyhour{
+  text-align:center;
+  color:white;
+}
+#partytime{
+  text-align: center;
+  background-color: #F15A29;
+  color: white;
+  align-content: center;
+
+}
+#breakfast {
+text-align: center;
+color:white;
+background-image: url("../image/foodtop/breakfast.jpg");
+padding-bottom: 65px;
+font-style: italic;
+}
+
+#lunch {
+text-align: center;
+color:white;
+background-image: url("../image/foodtop/lunch.jpg");
+padding-bottom: 65px;
+font-style: italic;
+}
+
+#dinner{
+  text-align: center;
+  color:white;
+  background-image: url("../image/foodtop/dinner.jpg");
+  padding-bottom: 65px;
+}
+
+.well {
+  float:left;
+}
+.par{
+  display:column;
+
+}
+#section four{
+  background-image:url("../image/backgrounds/subscribe.jpg")>;
+}
