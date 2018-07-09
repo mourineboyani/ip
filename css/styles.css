@@ -1,3 +1,47 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: gold;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.mynav{
+  text-align: left;
+
+}
 #section-one{
   text-align: center;
   background-image: url("../image/backgrounds/landing.jpg");
@@ -20,26 +64,30 @@ color:white;
 background-image: url("../image/foodtop/breakfast.jpg");
 padding-bottom: 65px;
 font-style: italic;
-opacity: 0.5;
+
 
 }
-
+.break:hover{
+  opacity:0.5;
+}
 #lunch {
 text-align: center;
 color:white;
 background-image: url("../image/foodtop/lunch.jpg");
 padding-bottom: 65px;
 font-style: italic;
-opacity: 0.5;
-
 }
-
+.lun:hover{
+  opacity: 0.5;
+}
 #dinner{
   text-align: center;
   color:white;
   background-image: url("../image/foodtop/dinner.jpg");
   padding-bottom: 65px;
   font-style: italic;
+}
+.din:hover{
   opacity: 0.5;
 }
 #dinner:hover{
@@ -100,10 +148,11 @@ opacity: 0.5;
 .formButton:hover{
   background-color: grey;
   color: #ffffff;
+
 }
 #footer{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   background-color:#F15A29;
 }
@@ -117,7 +166,7 @@ opacity: 0.5;
 #cstm{
   align-content: center;
 }
-.card{
+#sectionsix{
   text-align: center;
 }
 .button {
@@ -135,29 +184,63 @@ background-color: white;
 color: #F15A29;
 border: 2px solid #F15A29;
 }
-.sidenav a {
-   padding: 8px 8px 8px 32px;
-   text-decoration: none;
-   font-size: 25px;
-   color:white;
-   display: block;
-   transition: 0.3s;
 
+.formStyle {
+margin: 20px;
+background:rgba(250,250,250,0.5);
+padding: 6px;
+width: 40%;
+margin-bottom: 20px;
+border-bottom-width: 1px;
+border-bottom-style: none;
+border-bottom-color: #ecf0f1;
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+font-size: 28px;
+font-weight: 100;
+color: #ffffff;
+border-radius: 5px;
 }
 
-.sidenav a:hover{
-   color: #f1f1f1;
+.formButton {
+margin: 20px;
+background-color:#F15A29;
+display:inline-block;
+color:white;
+font-size:28px;
+font-weight: 100px;
+padding:6px 40px;
+text-decoration:none;
+border-radius: 5px;
 }
 
-.sidenav .closebtn {
-   position: absolute;
-   top: 0;
-   right: 25px;
-   font-size: 36px;
-   margin-left: 50px;
+.formButton:hover {
+background-color: purple;
+color:white;
 }
 
-@media screen and (max-height: 450px) {
- .sidenav {padding-top: 15px;}
- .sidenav a {font-size: 18px;}
+input:focus {
+outline: none;
+}
+
+::-webkit-input-placeholder {
+color: #ecf0f1;
+}
+
+:-moz-placeholder {
+color: #ecf0f1;
+}
+
+:-ms-input-placeholder {
+color: #ecf0f1;
+}
+.drab{
+ background-color: #dccce5;
+ margin-top: 100px;
+}
+#sectioneight{
+  text-align: center;
+  padding: 20px;
+
 }
