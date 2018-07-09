@@ -120,3 +120,44 @@ opacity: 0.5;
 .card{
   text-align: center;
 }
+.button {
+border: none;
+color: #F15A29;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5px;
+background-color: white;
+color: #F15A29;
+border: 2px solid #F15A29;
+}
+.sidenav a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color:white;
+   display: block;
+   transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+   color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+ .sidenav a {font-size: 18px;}
+}
