@@ -47,9 +47,9 @@
   background-image: url("../image/backgrounds/landing.jpg");
   color: white;
   }
-# happyhour{
+#happyhour{
   text-align:center;
-  color:white;
+  color:black;
 }
 #partytime{
   text-align: center;
@@ -94,7 +94,7 @@ font-style: italic;
   box-shadow: 0px 0px 0px 0px #00000, insert 2px white;
 }
 
-.well {
+.net {
   float:left;
 }
 .par{
@@ -109,19 +109,6 @@ font-style: italic;
   text-align: center;
   background-size: cover;
   color:white;
-}
-#sectionfive{
-  background-image: url("../image/backgrounds/foodsBg.jpg");
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.topnav{
-  background-color: grey;
-  margin-bottom: -7px;
-  text-align: center;
-  display: inline-block;
-  padding: 20px;
-  width: 100%;
 }
 .card{
   box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.2);
@@ -140,7 +127,7 @@ font-style: italic;
   padding-bottom: 85px;
 
 }
-}
+
 #fv{
   background-color: white;
   padding: 50px;
@@ -151,13 +138,13 @@ font-style: italic;
   border-right: 50px;*
   text-align: center;
 }
-#menufood{
-  color: orange;
-  text-align: center;
-  background-color: white;
-  padding: 50px;
-}
 
+.bgImage{
+  background-image: url("../image/backgrounds/foodsBg.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-attachment: fixed;
+}
 
 .formButton{
   margin: 20px;
@@ -180,13 +167,7 @@ font-style: italic;
   color: white;
   background-color:#F15A29;
 }
-.burger{
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  border-right: 50px;
-}
+
 #cstm{
   align-content: center;
 }
@@ -207,10 +188,6 @@ border-radius: 5px;
 background-color: white;
 color: #F15A29;
 border: 2px solid #F15A29;
-}
-
-#bg-menu-nav{
-  background-color: coral;
 }
 
 .formStyle {
@@ -267,8 +244,23 @@ color: #ecf0f1;
  background-color: #dccce5;
  margin-top: 100px;
 }
-#sectioneight{
-  text-align: center;
-  padding: 20px;
+#nav-tabContent{
+  align-items: center;
+  padding-left: 70px;
 
+}
+#burger{
+  background-color: white;
+  padding: 30px;
+}
+.nav-item{
+  padding-right: 200px;
+}
+.card2{
+  box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.2);
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
